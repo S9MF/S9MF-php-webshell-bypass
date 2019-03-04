@@ -26,7 +26,7 @@ WAF |  下载
 首先，我们的思路是以这段代码开始：
 ```php
 <?php
-$code = 'php加密的代码';
+$code = '大马源码base64加密';
 eval(base64_decode($code));
 ?>
 ```
