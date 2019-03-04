@@ -36,3 +36,7 @@ eval(base64_decode($code));
 waf查杀:  
 ![6](https://ws1.sinaimg.cn/large/006VEsyOgy1g0qwqzgr9dj30lg06omxe.jpg)
 
+分割函数:
+
+
+
