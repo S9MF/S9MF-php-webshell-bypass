@@ -62,11 +62,19 @@ D盾_Web查杀
 ![10](https://ws1.sinaimg.cn/large/006VEsyOgy1g0r384ykhrj30p006ngly.jpg)
 
 至此绕过以上4个WAF查杀，但是上面那个例子虽然成功绕过了，但是看起来很简单，所以在写一个。  
+
 首先我们来了解php中`$$`一个引用变量。  
 
 ```php
-
+<?php
+$a = 's9mf'; 
+$b = $a;    
+$c = "b";    
+echo $$c;  
 ```
+输出:  
+![11](https://ws1.sinaimg.cn/large/006VEsyOgy1g0r4dm4xxej307y05kt8p.jpg)
+
 
 ```php
 <?php
