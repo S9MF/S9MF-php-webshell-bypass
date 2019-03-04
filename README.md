@@ -30,4 +30,6 @@ $code = 'php加密的代码';
 eval(base64_decode($code));
 ?>
 ```
+动图:
+![5](https://ws1.sinaimg.cn/large/006VEsyOgy1g0qwjej1y0g30qd0hednu.gif)
 
