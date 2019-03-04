@@ -75,7 +75,7 @@ echo $$c;
 输出:  
 ![11](https://ws1.sinaimg.cn/large/006VEsyOgy1g0r4dm4xxej307y05kt8p.jpg)
 
-
+利用`$$`和`""`双引号解释变量的特性，我们这样写  
 ```php
 <?php
 $a = 'bAsE';
