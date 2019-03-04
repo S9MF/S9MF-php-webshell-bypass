@@ -119,7 +119,15 @@ eval($b);
 echo str_replace("ok","","emokmmokmokm"); 
 ```
 输出:  
-![13](https://ws1.sinaimg.cn/large/006VEsyOgy1g0r5hzfjzzj30fw05pmxr.jpg)
+![13](https://ws1.sinaimg.cn/large/006VEsyOgy1g0r5hzfjzzj30fw05pmxr.jpg)  
+### code3
+```php
+<?php
+$c = str_replace("s9mf", "", "Bs9mfaSE6s9mf4_Decs9mfOdE"); // base64_decode
+$a = $c('code');
+eval($b=&$a); 
+?>
+```
 
 
 
