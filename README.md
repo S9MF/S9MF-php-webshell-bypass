@@ -15,3 +15,4 @@ WAF |  下载
  D盾_Web查杀  | http://www.d99net.net/down/d_safe_2.1.4.4.zip
  河马webshell查杀 |  http://dl.shellpub.com/hm-ui/latest/HmSetup.zip?version=1.5.0
 深信服WebShellKillerTool | http://edr.sangfor.com.cn/tool/WebShellKillerTool.zip
+网站安全狗网马查杀 | http://download.safedog.cn/download/software/safedogwzApache.exe
