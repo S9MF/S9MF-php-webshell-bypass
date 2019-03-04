@@ -76,15 +76,17 @@ echo $$c;
 ![11](https://ws1.sinaimg.cn/large/006VEsyOgy1g0r4dm4xxej307y05kt8p.jpg)
 
 利用`$$`和`""`双引号解释变量的特性，我们这样写  
+### code1
 ```php
 <?php
 $a = 'bAsE';
 $b = '64_dEcODE';
 $fuck = $a.$b;
 $d = "fuck";
-$e = $$d('');  //$$
+$e = $$d('code');  // base64_decode('code')
 eval($e); 
 ```
+
 
 
 
