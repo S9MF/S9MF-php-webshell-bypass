@@ -172,7 +172,7 @@ eval($c.=$b);
 ```
 
 ### strtok()函数
-* strtok() 函数把字符串分割为更小的字符串（标记。
+* strtok() 函数把字符串分割为更小的字符串。
 ```php
 <?php
 $string = "//Hello//dd";
@@ -189,4 +189,7 @@ $a = strtok($string, "/");
 $b = $a('code');
 eval($d=&$b);
 ```
+### 缓解疲劳
+![17](https://ws1.sinaimg.cn/large/006VEsyOgy1g0rr2zw5kaj308c0c00tz.jpg)
+
 
