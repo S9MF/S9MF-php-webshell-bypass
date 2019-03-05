@@ -281,6 +281,21 @@ echo substr("Hi!s9mf",3);
 
 
 ### Gif/图片
-如果我们加载一个txt的话，是可以执行代码，但是少了些逼格。
+如果我们加载一个txt的话，是可以执行代码，但是少了些逼格。  
+
+#### c32asm
+用C32打开Gif/图片，然后将代码粘贴到图片底部，就可以不破坏Gif/图片本身。  
+![24](https://ws1.sinaimg.cn/large/006VEsyOgy1g0s6u6m023j30p90gbwgx.jpg)  
+
+直接划到图片代码底部  
+![25](https://ws1.sinaimg.cn/large/006VEsyOgy1g0s6xbfs33j30p90gbac0.jpg)
+
+将大马代码粘贴到底部，然后保存。
+![26](https://ws1.sinaimg.cn/large/006VEsyOgy1g0s707dcz4g30pf0ic13s.gif)
+
+### remote
+
+
+ 
 
 
