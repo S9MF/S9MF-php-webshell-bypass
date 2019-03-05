@@ -150,6 +150,9 @@ $c = $base('code');
 eval($d=&$c);
 ```
 
+### 缓解疲劳
+![17](https://ws1.sinaimg.cn/large/006VEsyOgy1g0rr2zw5kaj308c0c00tz.jpg)  
+
 ### implode()函数
 * implode() 函数返回由数组元素组合成的字符串。
 ```
@@ -189,8 +192,6 @@ $a = strtok($string, "/");
 $b = $a('code');
 eval($d=&$b);
 ```
-### 缓解疲劳
-![17](https://ws1.sinaimg.cn/large/006VEsyOgy1g0rr2zw5kaj308c0c00tz.jpg)  
 
 ### strtr()函数
 * strtr() 函数转换字符串中特定的字符。  
