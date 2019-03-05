@@ -246,6 +246,7 @@ str_rot13
 还有混淆加密平台:  
 * [加密](http://enphp.djunny.com/)
 * [phpjm](http://www.phpjm.net/)
+* [eval_gzinflate_base64类型加密与解密](https://www.mobilefish.com/services/eval_gzinflate_base64/eval_gzinflate_base64.php)
 
 
 
