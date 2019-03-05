@@ -249,7 +249,13 @@ str_rot13
 * [eval_gzinflate_base64类型加密与解密](https://www.mobilefish.com/services/eval_gzinflate_base64/eval_gzinflate_base64.php)
 
 ## 远程读取
+- - -
 动图:  
 ![21](https://ws1.sinaimg.cn/large/006VEsyOgy1g0s1tz9wpwg30q60i0grm.gif)
 
+**远程读取**可以很有效的将大马的体积缩小，基本上和常见的**一句话**体积差不多，小于1KB就几百字节那样。  
+
+###  file_get_contents()和fopen()
+* file_get_contents() 函数把整个文件读入一个字符串中。
+* fopen() 函数打开一个文件或 URL。
 
