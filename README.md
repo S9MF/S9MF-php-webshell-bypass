@@ -249,6 +249,7 @@ str_rot13
 * [eval_gzinflate_base64类型加密与解密](https://www.mobilefish.com/services/eval_gzinflate_base64/eval_gzinflate_base64.php)
 
 ## 远程读取
-
+动图:  
+![21](https://ws1.sinaimg.cn/large/006VEsyOgy1g0s1tz9wpwg30q60i0grm.gif)
 
 
