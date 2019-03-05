@@ -270,7 +270,7 @@ eval(file_get_contents("http://localhost/test/Hi.txt"));
 输出:  
 ![22](https://ws1.sinaimg.cn/large/006VEsyOgy1g0s62k1dnrj30gf08f3zh.jpg)  
 
-还得介绍个**substr()**函数。
+还得介绍个**substr() 函数**
 * substr() 函数返回字符串的一部分。  
 ```php
 <?php
