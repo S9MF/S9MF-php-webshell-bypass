@@ -194,7 +194,7 @@ eval($d=&$b);
 
 ### strtr()函数
 * strtr() 函数转换字符串中特定的字符。  
-```
+```php
 <?php
 echo strtr("pende keky","ek","ab");
 ```
