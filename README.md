@@ -255,7 +255,8 @@ str_rot13
 
 **远程读取**可以很有效的将大马的体积缩小，基本上和常见的**一句话**体积差不多，小于1KB就几百字节那样。  
 
-###  file_get_contents()和fopen()
+## file_get_contents()和fopen()
+- - -
 * file_get_contents() 函数把整个文件读入一个字符串中。
 * fopen() 函数打开一个文件或 URL。
 
