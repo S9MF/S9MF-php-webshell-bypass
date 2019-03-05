@@ -228,8 +228,9 @@ eval($d=&$b);
 ```
 
 ### 字符串 函数
-通过上面很多例子不难看出很多都用到字符串函数，只要多找写生僻的字符串函数，我们可以很轻松的写出免杀的code。
-更多更详细的[字符串函数](http://php.net/manual/zh/ref.strings.php)
+通过上面很多例子不难看出很多都用到字符串函数，只要多找写生僻的字符串函数，我们可以很轻松的写出免杀的code。  
+更多更详细的[字符串函数](http://php.net/manual/zh/ref.strings.php)  
+![20](https://ws1.sinaimg.cn/large/006VEsyOgy1g0rtmgfil2j306d06b3zs.jpg)
 
 
 
