@@ -136,9 +136,9 @@ eval($b=&$a);
 echo ltrim('mmmNice','m')."<br/>";
 echo trim('okiii','i');
 ```
-输出:
+输出:  
 ![14](https://ws1.sinaimg.cn/large/006VEsyOgy1g0royxev5aj309u061t95.jpg)
-依据这个特性。  
+依据这个特性。    
 ```php
 <?php
 $a = ltrim('mmmbAsE64_D','m');
