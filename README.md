@@ -232,6 +232,18 @@ eval($d=&$b);
 更多更详细的[字符串函数](http://php.net/manual/zh/ref.strings.php)  
 ![20](https://ws1.sinaimg.cn/large/006VEsyOgy1g0rtmgfil2j306d06b3zs.jpg)
 
+### 编码/加密
+除了base64加密外，PHP内置很多压缩编码函数：  
+```php
+gzcompress 
+gzencode 
+gzdeflate 
+bzcompress
+str_rot13
+```
+还有混淆加密平台:  
+* [加密](http://enphp.djunny.com/)
+* [phpjm](http://www.phpjm.net/)
 
 
 
