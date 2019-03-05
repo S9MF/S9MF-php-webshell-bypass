@@ -270,6 +270,16 @@ eval(file_get_contents("http://localhost/test/Hi.txt"));
 输出:  
 ![22](https://ws1.sinaimg.cn/large/006VEsyOgy1g0s62k1dnrj30gf08f3zh.jpg)  
 
+还得介绍个**substr()**函数。
+* substr() 函数返回字符串的一部分。  
+```php
+<?php
+ // 输出3个字节后的全部,就是s9mf
+echo substr("Hi!s9mf",3);
+```
+![23](https://ws1.sinaimg.cn/large/006VEsyOgy1g0s6mgewomj30fb095757.jpg)
+
+
 ### Gif/图片
 如果我们加载一个txt的话，是可以执行代码，但是少了些逼格。
 
